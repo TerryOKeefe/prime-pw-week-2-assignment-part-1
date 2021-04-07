@@ -2,7 +2,7 @@
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Terry';
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastName = 'OKeefe';
+let lastName = 'O\'Keefe';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName + ' ' + lastName;
@@ -30,17 +30,17 @@ const allowedPets = 3;
 // if it's not true, console log "How about we stay home?"
 if ( adventurous ) {
   console.log( 'Adventures are great');
-} // end is adventurous
+} // end if is adventurous true
 else {
   console.log( 'How about we stay home?' );
-} // end is not adventurous
+} // end if is not adventurous
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (luckyNumber == 2 && adventurous) {
+if (luckyNumber === 2 && adventurous) {
   console.log( 'Roll the dice!' );
 } // code if both are true
 else {
-  console.log( 'No dice for you!' );
+  console.log( 'No dice for you!' ); // code to run if false
 } // code if one or the other is false
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -49,7 +49,7 @@ else {
 // if the value of `pets` is greater than the value of `allowedPets`.
 if ( pets < allowedPets ) {
   console.log( 'I can have more pets!' );
-} // block of code to be executed if condition1 is true
+} // block of code to be executed if pets is less than allowedPets
 else if (pets == allowedPets) {
   console.log( 'I have enough pets' );
 } // block of code to be executed if condition1 is false and condition2 is true
@@ -63,7 +63,7 @@ else {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
-let mostPets =
+let mostPets;
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
