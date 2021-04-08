@@ -12,7 +12,7 @@ let fullName = firstName + ' ' + lastName;
 console.log( fullName );
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 22;
-console.log(luckyNumber);
+console.log('my lucky number:', luckyNumber);
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -25,16 +25,16 @@ let food = 'pizza';
 console.log(food);
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 0;
-console.log(pets);
+console.log('my pets:',pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
-console.log(friendsPets);
+console.log('friends pets:',friendsPets);
 // 11 - Add two pets to your `pets` variable
 pets += 2;
-console.log(pets);
+console.log('my pets:', pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
-console.log(allowedPets);
+console.log('allowed pets:', allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
 if ( adventurous ) {
