@@ -1,8 +1,10 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Terry';
+console.log(firstName);
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'O\'Keefe';
+console.log(lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName + ' ' + lastName;
@@ -10,27 +12,34 @@ let fullName = firstName + ' ' + lastName;
 console.log( fullName );
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 22;
+console.log(luckyNumber);
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 console.log( 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
+console.log(adventurous);
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'pizza';
+console.log(food);
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 0;
+console.log(pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
+console.log(friendsPets);
 // 11 - Add two pets to your `pets` variable
 pets += 2;
+console.log(pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
+console.log(allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
 if ( adventurous ) {
   console.log( 'Adventures are great');
-} // end if is adventurous true
+} // end if adventurous is true
 else {
   console.log( 'How about we stay home?' );
 } // end if is not adventurous
@@ -50,7 +59,7 @@ else {
 if ( pets < allowedPets ) {
   console.log( 'I can have more pets!' );
 } // block of code to be executed if pets is less than allowedPets
-else if (pets == allowedPets) {
+else if (pets === allowedPets) {
   console.log( 'I have enough pets' );
 } // block of code to be executed if condition1 is false and condition2 is true
 else {
