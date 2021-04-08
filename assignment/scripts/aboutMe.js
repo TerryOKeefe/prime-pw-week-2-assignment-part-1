@@ -38,7 +38,7 @@ console.log('allowed pets:', allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
 if ( adventurous ) {
-  console.log( 'Adventures are great');
+  console.log( 'Adventures are great!');
 } // end if adventurous is true
 else {
   console.log( 'How about we stay home?' );
@@ -65,6 +65,7 @@ else if (pets === allowedPets) {
 else {
   console.log( 'Oh no, I have too many pets!');
 } // block of code to be executed if condition1 is false and condition2 is false
+
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
@@ -94,7 +95,11 @@ switch (mostPets) {
     console.log('My friend has more Pets');
     break; // run if my friend has the most pets
   default:
-    console.log('Does anyone have pets?');
+    console.log('Does anyone have pets?'); // if none of the above cases executed
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+let myAdventure = adventurous ? 'Adventures are great!' : 'How about we stay home?';
+
+console.log(myAdventure);
