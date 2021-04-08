@@ -86,4 +86,15 @@ console.log('most pets:',mostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
+switch (mostPets) {
+  case pets:
+    console.log('I have the most pets');
+    break; // run if I have more pets
+  case friendsPets:
+    console.log('My friend has more Pets');
+    break; // run if my friend has the most pets
+  default:
+    console.log('Does anyone have pets?');
+}
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
